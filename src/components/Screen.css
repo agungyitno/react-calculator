@@ -1,0 +1,25 @@
+.screen {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  color: var(--color);
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 1px solid #3c4043;
+  display: grid;
+  align-items: flex-end;
+  justify-items: flex-end;
+  grid-template-rows: 1fr 1fr;
+}
+
+.prev {
+  width: 300px;
+  text-align: right;
+}
+.curr {
+  width: 300px;
+  text-align: right;
+}
